@@ -8,7 +8,7 @@ import cors from 'cors'
 const app = express();
 
 //Middleware for parsing request body
-app.use(express.json())
+app.use(express.json());
 
 //Middleware for handling CORS Policy
 //Option 1: Allow all origins with default of cors()
